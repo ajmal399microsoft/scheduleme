@@ -1,0 +1,1 @@
+ALTER TABLE tasks ADD COLUMN repeat_after_completion INTEGER NOT NULL DEFAULT 0 CHECK (repeat_after_completion IN (0, 1));

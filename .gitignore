@@ -1,0 +1,14 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+coverage/
+.idea/
+.vscode/
+*.iml
+local.properties
+.DS_Store
+# Widget Preview related
+.widget_preview/

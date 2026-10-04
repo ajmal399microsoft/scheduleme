@@ -1,0 +1,1 @@
+ALTER TABLE tasks ADD COLUMN reminders_muted INTEGER NOT NULL DEFAULT 0 CHECK (reminders_muted IN (0, 1));
